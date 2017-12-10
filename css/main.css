@@ -124,3 +124,10 @@ form {
   max-width: 500px;
   margin: auto;
 }
+
+#submit-button {
+  width: auto;
+  padding: 4px 16px;
+  background-color: #00b3c6;
+  color: white;
+}
