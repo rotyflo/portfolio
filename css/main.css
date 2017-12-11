@@ -100,9 +100,10 @@ button {
   border: solid #ccc 1px;
 }
 
-#about p {
-  width: 300px;
-  margin: auto;
+p {
+  width: 75%;
+  max-width: 338px;
+  margin: 18px auto;
 }
 
 input, textarea {
@@ -127,6 +128,7 @@ form {
 
 #submit-button {
   width: auto;
+  margin: 20px;
   padding: 4px 16px;
   background-color: #00b3c6;
   color: white;
