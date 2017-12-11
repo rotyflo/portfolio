@@ -23,11 +23,13 @@ input, textarea, p, button {
   padding: 4px 16px;
   border-radius: 16px;
   border: solid white 1px;
+  transition-duration: 0.2s;
 }
 
 #find-me a:hover {
   background-color: white;
   color: #00b3c6;
+  transition-duration: 0.2s;
 }
 
 button {
@@ -64,10 +66,12 @@ button {
   display: block;
   text-decoration: none;
   color: white;
+  transition-duration: 0.2s;
 }
 
 #navbar li a:hover {
-  color: #00b3c6;
+  background-color: #444;
+  transition-duration: 0.2s;
 }
 
 #portfolio, #about, #contact, #find-me {
@@ -131,5 +135,14 @@ form {
   margin: 20px;
   padding: 4px 16px;
   background-color: #00b3c6;
+  border: solid 1px #00b3c6;
   color: white;
+  transition-duration: 0.2s;
+}
+
+#submit-button:hover {
+  color: #00b3c6;
+  border: solid #00b3c6 1px;
+  background-color: white;
+  transition-duration: 0.2s;
 }
