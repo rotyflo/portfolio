@@ -7,51 +7,94 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>RT Flores</title>
 
+  <!-- Bootstrap CSS File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
-  <ul id="navbar">
-    <li>
-      <a href="#contact">Contact</a>
-    </li>
-    <li>
-      <a href="#about">About</a>
-    </li>
-    <li>
-      <a href="#portfolio">Portfolio</a>
-    </li>
-  </ul>
+<body class="text-center container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand">rotyflo //</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active about-link">About
+          <span class="sr-only">(current)</span>
+        </a>
+        <a class="nav-item nav-link portfolio-link">Portfolio</a>
+        <a class="nav-item nav-link contact-link">Contact</a>
+      </div>
+    </div>
+  </nav>
 
-  <div id="intro">
-    <h1>RT FLORES</h1>
-    <p>
-      I'm a front end web developer who is 
-      proficient in HTML, CSS and JavaScript.
+  <div id="about">
+    <h1>Robert Tyler Flores</h1>
+    <p class="lead">I'm a web developer proficient in HTML, CSS and JavaScript.</p>
+    <p class="lead">
+      <a href="portfolio.html" class="btn btn-lg btn-secondary">View Portfolio</a>
     </p>
   </div>
 
   <div id="portfolio">
-    <h2>PORTFOLIO</h2>
+    <div class="album py-5">
+      <div class="container">
 
-    <div id="sites">
-      <a href="https://rotyflo.github.io/random-quote-machine"><img class="portfolio-item" src="media/random-quote-app.png" alt="Random Quote App"></a>
-      <a href="https://rotyflo.github.io/simon-game"><img class="portfolio-item" src="media/simon-game.png" alt="Simon Game"></a>
-      <a href="https://rotyflo.github.io/tic-tac-toe"><img class="portfolio-item" src="media/tic-tac-toe.png" alt="Tic Tac Toe"></a>
-      <a href="https://rotyflo.github.io/twitch-streamer-status"><img class="portfolio-item" src="media/twitch-streamer-viewer.png" alt="Twitch Streamer Status App"></a>
-      <a href="https://rotyflo.github.io/local-weather"><img class="portfolio-item" src="media/weather-app.png" alt="Weather App"></a>
-      <a href="https://rotyflo.github.io/wikipedia-viewer"><img class="portfolio-item" src="media/wiki-viewer.png" alt="Wiki Viewer App"></a>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="media/simon-game.png" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="media/random-quote-app.png" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="media/tic-tac-toe.png" alt="Card image cap">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="media/simon-game.png" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="media/simon-game.png" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="media/simon-game.png" alt="Card image cap">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="media/simon-game.png" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="media/simon-game.png" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" src="media/simon-game.png" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-
-  <div id="about">
-    <h2>ABOUT</h2>
-
-    <p style="text-align: justify;">
-      I spent my senior year of high school in Japan. I'm pretty comfortable
-      with the Linux terminal. Taco Bell is my favorite. I Google everything. I 
-      like to spend as much time as I can with friends and family.
-    </p>
   </div>
 
   <div id="contact">
@@ -66,14 +109,20 @@
       <hr>
       <input type="submit" value="Send" id="submit-button">
     </form>
-  </div>
 
-  <div id="find-me">
+
     <h2>FIND ME</h2>
-    <p><a href="https://www.linkedin.com/in/rotyflo">LinkedIn</a></p>
-    <p><a href="https://github.com/rotyflo">GitHub</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/rotyflo">LinkedIn</a>
+    </p>
+    <p>
+      <a href="https://github.com/rotyflo">GitHub</a>
+    </p>
   </div>
 
+  <!-- jQuery.js, Bootstrap.js, Custom JavaScript (IN THAT ORDER) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
 </body>
 

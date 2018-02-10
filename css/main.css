@@ -1,148 +1,22 @@
-*, *:before, *:after {
-  -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box; 
-  box-sizing: border-box;
-}
-
-body {
-  text-align: center;
-  background-color: #00b3c6;
-  margin: 0;
-  padding: 0;
+html, body {
+  height: 100%;
+  background-image: url("https://static.pexels.com/photos/204846/pexels-photo-204846.jpeg");
+  background-size: cover;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-input, textarea, p, button {
-  font-size: 18px;
+#about {
+  margin-top: 100px;
 }
 
-#find-me a {
-  color: white;
-  text-decoration: none;
-  padding: 4px 16px;
-  border-radius: 16px;
-  border: solid white 1px;
-  transition-duration: 0.2s;
+#portfolio {
+  display: none;
 }
 
-#find-me a:hover {
-  background-color: white;
-  color: #00b3c6;
-  transition-duration: 0.2s;
+#contact {
+  display: none;
 }
 
-button {
-  background-color: #00b3c6;
-  color: white;
-  border: none;
-  padding: 4px 16px;
-  margin: 20px;
-}
-
-#navbar {
-  font-size: 20px;
-  background-color: #555;
-  color: white;
-  list-style-type: none;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  right: 0;
-  left: 0;
-}
-
-#name {
-  float: left;
-}
-
-#name, #navbar li a {
-  padding: 4px 16px;
-}
-
-#navbar li a {
-  float: right;
-  display: block;
-  text-decoration: none;
-  color: white;
-  transition-duration: 0.2s;
-}
-
-#navbar li a:hover {
-  background-color: #444;
-  transition-duration: 0.2s;
-}
-
-#portfolio, #about, #contact, #find-me {
-  padding: 32px 0;
-}
-
-#intro {
-  padding: 64px 0 32px 0;
-}
-
-#intro img {
-  width: 200px;
-  border-radius: 50%;
-}
-
-#portfolio, #contact {
-  background-color: white;
-  color: #555;
-}
-
-#sites {
-  max-width: 900px;
-  margin: auto;
-}
-
-.portfolio-item {
-  width: 240px;
-  height: 135px;
-  margin: 20px;
-  border: solid #ccc 1px;
-}
-
-p {
-  width: 75%;
-  max-width: 338px;
-  margin: 18px auto;
-}
-
-input, textarea {
-  background: none;
-  border: none;
-  padding: 20px;
-  width: 100%;
-  color: #555;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-hr {
-  border: #ddd solid 1px;
-}
-
-form {
-  text-align: left;
-  width: auto;
-  max-width: 500px;
-  margin: auto;
-}
-
-#submit-button {
-  width: auto;
-  margin: 20px;
-  padding: 4px 16px;
-  background-color: #00b3c6;
-  border: solid 1px #00b3c6;
-  color: white;
-  transition-duration: 0.2s;
-}
-
-#submit-button:hover {
-  color: #00b3c6;
-  border: solid #00b3c6 1px;
-  background-color: white;
-  transition-duration: 0.2s;
+.nav-item:hover {
+  cursor: pointer;
 }
