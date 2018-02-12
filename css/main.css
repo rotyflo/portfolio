@@ -25,3 +25,12 @@ html, body {
 .nav-item:hover {
   cursor: pointer;
 }
+
+.form-control {
+  max-width: 480px;
+  margin: auto;
+}
+
+a {
+  color: white;
+}

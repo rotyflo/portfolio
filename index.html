@@ -10,6 +10,9 @@
   <!-- Bootstrap CSS File -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -101,22 +104,22 @@
     <h2>CONTACT</h2>
 
     <form action="https://formspree.io/rotyflo@gmail.com" method="POST">
-      <input type="text" name="name" placeholder="Name">
+      <div class="form-group">
+        <input class="form-control" type="text" name="name" placeholder="Name">
+      </div>
+      <input class="form-control" type="email" name="email" placeholder="Email" required>
       <hr>
-      <input type="email" name="email" placeholder="Email">
+      <textarea class="form-control" name="message" id="message" placeholder="Message" rows="8"></textarea>
       <hr>
-      <textarea name="message" id="message" placeholder="Message" rows="8"></textarea>
-      <hr>
-      <input type="submit" value="Send" id="submit-button">
+      <input class="btn btn-secondary" type="submit" value="Send" id="submit-button">
     </form>
 
-
-    <h2>FIND ME</h2>
+    <hr>
     <p>
-      <a href="https://www.linkedin.com/in/rotyflo">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/rotyflo"><i class="fab fa-linkedin fa-3x"></i></a>
     </p>
     <p>
-      <a href="https://github.com/rotyflo">GitHub</a>
+      <a href="https://github.com/rotyflo"><i class="fab fa-github-square fa-3x"></i></a>
     </p>
   </div>
 
