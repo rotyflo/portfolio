@@ -10,15 +10,37 @@ html, body {
   color: white;
 }
 
-#about {
+/* Sticky Footer BEGIN */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+
+footer {
+  flex-shrink: 0;
+  padding: 20px;
+}
+/* Sticky Footer END */
+
+.carousel {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.about {
   margin-top: 100px;
 }
 
-#portfolio {
+.portfolio {
   display: none;
 }
 
-#contact {
+.contact {
   display: none;
 }
 
@@ -33,4 +55,9 @@ html, body {
 
 a {
   color: white;
+}
+
+.contact-links p {
+  display: inline;
+  padding: 5px;
 }
