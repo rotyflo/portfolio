@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $(".about-link").click(function() {
-        $("#about").show();
-        $("#portfolio").hide();
-        $("#contact").hide();
+        $(".about").show();
+        $(".portfolio").hide();
+        $(".contact").hide();
 
         $(".about-link").addClass("active");
         $(".portfolio-link").removeClass("active");
@@ -10,9 +10,9 @@ $(document).ready(function() {
     });
     
     $(".portfolio-link").click(function() {
-        $("#about").hide();
-        $("#portfolio").show();
-        $("#contact").hide();
+        $(".about").hide();
+        $(".portfolio").show();
+        $(".contact").hide();
 
         $(".about-link").removeClass("active");
         $(".portfolio-link").addClass("active");
@@ -20,9 +20,9 @@ $(document).ready(function() {
     });
     
     $(".contact-link").click(function() {
-        $("#about").hide();
-        $("#portfolio").hide();
-        $("#contact").show();
+        $(".about").hide();
+        $(".portfolio").hide();
+        $(".contact").show();
 
         $(".about-link").removeClass("active");
         $(".portfolio-link").removeClass("active");
