@@ -21,7 +21,7 @@ main {
   padding: 20px;
 }
 
-footer {
+footer, nav {
   flex-shrink: 0;
   padding: 20px;
 }
