@@ -19,7 +19,7 @@
 </head>
 
 <body class="text-center container-fluid">
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand">rotyflo //</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -27,17 +27,17 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active about-link">About
+        <a id="about-link" class="nav-item nav-link active">about me
           <span class="sr-only">(current)</span>
         </a>
-        <a class="nav-item nav-link portfolio-link">Portfolio</a>
-        <a class="nav-item nav-link contact-link">Contact</a>
+        <a id="projects-link" class="nav-item nav-link">projects</a>
+        <a id="contact-link" class="nav-item nav-link">contact me</a>
       </div>
     </div>
   </nav>
 
   <main>
-    <div class="about">
+    <div id="about">
       <h1>Robert Tyler Flores</h1>
       <p class="lead">I'm a web developer proficient in HTML, CSS and JavaScript.</p>
 
@@ -68,27 +68,27 @@
       </p>
     </div>
 
-    <div class="portfolio">
+    <div id="projects">
       <div class="album py-5">
         <div class="container">
 
           <div class="row">
             <div class="col-md-4">
-              <div class="card mb-4">
+              <div class="card mb-4 project-tile">
                 <a href="https://rotyflo.github.io/javascript-calculator" target="_blank">
                   <img class="card-img-top" src="media/jsc.png" alt="JavaScript Calculator App">
                 </a>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-4">
+              <div class="card mb-4  project-tile">
                 <a href="https://rotyflo.github.io/local-weather" target="_blank">
                   <img class="card-img-top" src="media/lw.png" alt="Local Weather App">
                 </a>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-4">
+              <div class="card mb-4  project-tile">
                 <a href="https://rotyflo.github.io/pomodoro-clock" target="_blank">
                   <img class="card-img-top" src="media/pc.png" alt="Pomodoro Clock App">
                 </a>
@@ -96,21 +96,21 @@
             </div>
 
             <div class="col-md-4">
-              <div class="card mb-4">
+              <div class="card mb-4  project-tile">
                 <a href="https://rotyflo.github.io/random-quote-machine" target="_blank">
                   <img class="card-img-top" src="media/rqm.png" alt="Random Quote Machine App">
                 </a>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-4">
+              <div class="card mb-4 project-tile">
                 <a href="https://rotyflo.github.io/simon-game" target="_blank">
                   <img class="card-img-top" src="media/ss.png" alt="Simon Memory Game">
                 </a>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-4">
+              <div class="card mb-4 project-tile">
                 <a href="https://rotyflo.github.io/tribute-page" target="_blank">
                   <img class="card-img-top" src="media/tp.png" alt="Tribute Page">
                 </a>
@@ -118,21 +118,21 @@
             </div>
 
             <div class="col-md-4">
-              <div class="card mb-4">
+              <div class="card mb-4 project-tile">
                 <a href="https://rotyflo.github.io/twitch-streamer-status" target="_blank">
                   <img class="card-img-top" src="media/tss.png" alt="Twitch Streamer Status App">
                 </a>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-4">
+              <div class="card mb-4 project-tile">
                 <a href="https://rotyflo.github.io/tic-tac-toe" target="_blank">
                   <img class="card-img-top" src="media/ttt.png" alt="Tic Tac Toe Game">
                 </a>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-4">
+              <div class="card mb-4 project-tile">
                 <a href="https://rotyflo.github.io/wikipedia-viewer" target="_blank">
                   <img class="card-img-top" src="media/wv.png" alt="Wikipedia Viewer App">
                 </a>
@@ -143,27 +143,29 @@
       </div>
     </div>
 
-    <div class="contact">
-      <h2>CONTACT</h2>
+    <div id="contact">
+      <div>
+        <h2>CONTACT</h2>
 
-      <form action="https://formspree.io/rotyflo@gmail.com" method="POST">
-        <div class="form-group">
-          <input class="form-control" type="text" name="name" placeholder="Name">
-        </div>
-        <div class="form-group">
-          <input class="form-control" type="email" name="email" placeholder="Email" required>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" name="message" id="message" placeholder="Message" rows="8"></textarea>
-        </div>
-        <input class="btn btn-secondary" type="submit" value="Send" id="submit-button">
-      </form>
+        <form action="https://formspree.io/rotyflo@gmail.com" method="POST">
+          <div class="form-group">
+            <input class="form-control" type="text" name="name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" id="message" placeholder="Message" rows="8"></textarea>
+          </div>
+          <input class="btn btn-secondary" type="submit" value="Send" id="submit-button">
+        </form>
+      </div>
     </div>
   </main>
 
-  <div class="contact">
+  <div>
     <footer>
-      <div class="contact-links">
+      <div id="where-to-find-me">
         <p>
           <a href="https://www.linkedin.com/in/rotyflo" target="_blank">
             <i class="fab fa-linkedin-in fa-2x"></i>
@@ -187,6 +189,7 @@
       </div>
     </footer>
   </div>
+
 
   <!-- jQuery.js, Bootstrap.js, Custom JavaScript (IN THAT ORDER) -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

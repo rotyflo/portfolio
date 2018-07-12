@@ -26,11 +26,11 @@ footer, nav {
   margin: 20px auto;
 }
 
-.portfolio {
+#projects {
   display: none;
 }
 
-.contact {
+#contact {
   display: none;
 }
 
@@ -47,7 +47,11 @@ a {
   color: white;
 }
 
-.contact-links p {
+#where-to-find-me p {
   display: inline;
   padding: 5px;
+}
+
+.project-tile:hover {
+  opacity: .75;
 }
