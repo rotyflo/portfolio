@@ -1,57 +1,23 @@
-html, body {
-  height: 100%;
+body {
   background: #303030;
   color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
-/* Sticky Footer BEGIN */
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1 0 auto;
-  padding: 20px;
-}
-
-footer, nav {
-  flex-shrink: 0;
-  padding: 20px;
-}
-/* Sticky Footer END */
-
-.carousel {
-  max-width: 800px;
-  margin: 20px auto;
-}
-
-#projects {
-  display: none;
-}
-
-#contact {
-  display: none;
-}
-
-.nav-item:hover {
-  cursor: pointer;
-}
-
-.form-control {
+img, input, textarea {
+  width: 100%;
   max-width: 480px;
   margin: auto;
 }
 
+input, textarea {
+  display: block;
+  border: black 1px solid;
+  padding: 16px;
+}
+
 a {
   color: white;
-}
-
-#where-to-find-me p {
-  display: inline;
-  padding: 5px;
-}
-
-.project-tile:hover {
-  opacity: .75;
+  text-decoration: none;
 }
