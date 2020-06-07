@@ -7,14 +7,14 @@ body {
 
 img, input, textarea {
   width: 100%;
-  max-width: 480px;
-  margin: auto;
+  max-width: 360px;
+  margin: 1px auto;
 }
 
 input, textarea {
   display: block;
-  border: black 1px solid;
-  padding: 16px;
+  border: 0px;
+  padding: 16px 0px;
 }
 
 a {
