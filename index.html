@@ -7,49 +7,103 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>RT Flores</title>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/simple-grid.css">
 </head>
 
-<body>
-  <div>
-    <h1>Robert Tyler Flores</h1>
-    <p id="description">I'm a web developer proficient in HTML, CSS and JavaScript.</p>
-  </div>
+<body class="container">
 
   <div>
-    <h2>Projects</h2>
-    <a href="https://rotyflo.github.io/calculator" target="_blank">
-      <img src="media/javascript-calculator.png" alt="JavaScript Calculator App">
-    </a>
-    <a href="https://rotyflo.github.io/weather" target="_blank">
-      <img src="media/local-weather.png" alt="Local Weather App">
-    </a>
-    <a href="https://rotyflo.github.io/pomodoro" target="_blank">
-      <img src="media/pomodoro-clock.png" alt="Pomodoro Clock App">
-    </a>
-    <a href="https://rotyflo.github.io/quotes" target="_blank">
-      <img src="media/random-quote-machine.png" alt="Random Quote Machine App">
-    </a>
-    <a href="https://rotyflo.github.io/simon" target="_blank">
-      <img src="media/simon-game.png" alt="Simon Memory Game">
-    </a>
-    <a href="https://rotyflo.github.io/tribute" target="_blank">
-      <img src="media/tribute-page.png" alt="Tribute Page">
-    </a>
-    <a href="https://rotyflo.github.io/streamerstatus" target="_blank">
-      <img src="media/twitch-streamer-status.png" alt="Twitch Streamer Status App">
-    </a>
-    <a href="https://rotyflo.github.io/tictactoe" target="_blank">
-      <img src="media/tic-tac-toe.png" alt="Tic Tac Toe Game">
-    </a>
-    <a href="https://rotyflo.github.io/wikiviewer" target="_blank">
-      <img src="media/wikipedia-viewer.png" alt="Wikipedia Viewer App">
-    </a>
+    <h1>Robert Tyler Flores</h1>
+    <p>I'm a web developer proficient in HTML, CSS and JavaScript.</p>
+  </div>
+
+  <h2>Projects</h2>
+
+  <div class="row">
+    <div class="col-4">
+      <a href="https://rotyflo.github.io/calculator" target="_blank">
+        <div class="card">
+          <h3>Calculator</h3>
+          <p>a simple calculator with which to calculate things</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-4">
+      <a href="https://rotyflo.github.io/weather" target="_blank">
+        <div class="card">
+          <h3>Weather</h3>
+          <p>tells your the weather in your current location</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-4">
+      <a href="https://rotyflo.github.io/pomodoro" target="_blank">
+        <div class="card">
+          <h3>Pomodoro</h3>
+          <p>keeps track of your custom work/break intervals</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <a href="https://rotyflo.github.io/quotes" target="_blank">
+        <div class="card">
+          <h3>Quote Machine</h3>
+          <p>grabs a random quote using that you can then tweet</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-4">
+      <a href="https://rotyflo.github.io/simon" target="_blank">
+        <div class="card">
+          <h3>Simon</h3>
+          <p>try to memorize and repeat the randomly generated pattern</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-4">
+      <a href="https://rotyflo.github.io/tribute" target="_blank">
+        <div class="card">
+          <h3>Tribute</h3>
+          <p>a basic tribute page</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <a href="https://rotyflo.github.io/streamerstatus" target="_blank">
+        <div class="card">
+          <h3>Streamer Status</h3>
+          <p>finds what someone is streaming on twitch</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-4">
+      <a href="https://rotyflo.github.io/tictactoe" target="_blank">
+        <div class="card">
+          <h3>TicTacToe</h3>
+          <p>play against the AI or a friend</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-4">
+      <a href="https://rotyflo.github.io/wikiviewer" target="_blank">
+        <div class="card last">
+          <h3>Wiki Viewer</h3>
+          <p>returns search results from wiki with brief summaries</p>
+        </div>
+      </a>
+    </div>
   </div>
 
   <br>
 
   <div>
-    <h2>CONTACT</h2>
+    <h2>Contact</h2>
     <form action="https://formspree.io/rotyflo@gmail.com" method="POST">
       <input type="text" name="name" placeholder="   Name">
       <input type="email" name="email" placeholder="   Email" required>
@@ -62,9 +116,9 @@
   <br>
 
   <div>
-    <a href="https://github.com/rotyflo" target="_blank">
+    <h3><a href="https://github.com/rotyflo" target="_blank">
       GitHub
-    </a>
+    </a></h3>
   </div>
 </body>
 

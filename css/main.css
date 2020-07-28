@@ -2,17 +2,12 @@ body {
   background: #fff;
   color: #000;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-
-img, input, textarea {
-  width: 100%;
-  max-width: 360px;
-  margin: 1px auto;
-  border: 2px #000 solid;
 }
 
 input, textarea {
+  width: 100%;
+  max-width: 360px;
+  margin: 1px auto;
   display: block;
   border: 2px #000 solid;
   border-radius: 0px;
@@ -26,10 +21,7 @@ a {
   text-decoration: none;
 }
 
-#description {
+.card {
   border: 2px black solid;
-  padding: 12px;
-  box-shadow: 4px 4px;
-  max-width: 600px;
-  margin: auto;
+  padding: 20px;
 }
