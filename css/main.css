@@ -1,6 +1,6 @@
-input, textarea {
-  border: 2px #000 solid;
-  border-radius: 0px;
+input, textarea, button {
+  border: 1px #ccc solid;
+  border-radius: 6px;
   padding: 12px;
   font-size: 16px;
 }
@@ -11,6 +11,7 @@ a {
 }
 
 .card {
-  border: 2px #000 solid;
-  padding: 20px;
+  border: 1px #ccc solid;
+  border-radius: 6px;
+  padding: 0px 20px;
 }
