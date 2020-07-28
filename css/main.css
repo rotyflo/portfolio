@@ -1,5 +1,6 @@
 input, textarea {
   border: 2px #000 solid;
+  border-radius: 0px;
   padding: 12px;
   font-size: 16px;
 }
