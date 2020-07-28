@@ -105,17 +105,32 @@
   <div>
     <h2>Contact</h2>
     <form action="https://formspree.io/rotyflo@gmail.com" method="POST">
-      <input type="text" name="name" placeholder="   Name">
-      <input type="email" name="email" placeholder="   Email" required>
-      <textarea name="message" id="message" placeholder="   Message" rows="8"></textarea>
-      <input type="submit" value="Send" id="submit-button">
+      <div class="row">
+        <input class="col-4" type="text" name="name" placeholder="Name">
+        <div class="col-8"></div>
+      </div>
+
+      <div class="row">
+        <input class="col-4" type="email" name="email" placeholder="Email" required>
+        <div class="col-8"></div>
+      </div>
+
+      <div class="row">
+        <textarea class="col-6" name="message" id="message" placeholder="Message" rows="8"></textarea>
+        <div class="col-6"></div>
+      </div>
+
+      <div class="row">
+        <input class="col-2" type="submit" value="Send" id="submit-button">
+        <div class="col-10"></div>
+      </div>
     </form>
   </div>
 
   <br>
   <br>
 
-  <div>
+  <div class="center">
     <h3><a href="https://github.com/rotyflo" target="_blank">
       GitHub
     </a></h3>
