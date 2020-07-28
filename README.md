@@ -4,8 +4,7 @@ My personal portfolio. If you want to find out more about me, [check it out](htt
 
 ## Built Using
 
-- Bootstrap
-- Font Awesome
+- [simple-grid](https://github.com/zachacole/Simple-Grid)
 
 ## License
 
