@@ -1,13 +1,13 @@
-# RoTyFlo
+# rotyflo
 
-My personal portfolio. If you want to find out more about me, [check it out](https://rotyflo.github.io/).
+my personal portfolio. if you want to find out more about me, [check it out](https://rotyflo.github.io/).
 
-## Built Using
+## built using
 
-- [simple-grid](https://github.com/zachacole/Simple-Grid)
+- [holiday.css](https://github.com/EvgenyOrekhov/holiday.css)
 
-## License
+## license
 
-**[MIT License](http://badges.mit-license.org)**
+**[mit license](http://badges.mit-license.org)**
 
-Copyright 2018 © <a href="https://rotyflo.github.io" target="_blank">rotyflo</a>
+copyright 2021 © <a href="https://rotyflo.github.io" target="_blank">rotyflo</a>
