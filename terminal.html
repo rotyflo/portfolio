@@ -17,29 +17,20 @@
   <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body class="terminal">
+<body class="terminal" style="background-color: #222225; color: #e8e9ed;">
   <div class="container">
-    <header class="terminal-nav">
+		<header class="terminal-nav">
       <nav class="terminal-menu">
         <ul>
-          <li><a class="menu-item" href="../index.html"><button class="btn btn-error btn-ghost">exit</button></a></li>
+          <li><a class="menu-item" href="./index.html"><button class="btn btn-error btn-ghost">exit terminal</button></a></li>
         </ul>
       </nav>
     </header>
 
-    <body>
-			<main>		
-				<div class="terminal-card">
-					<header>passwordless ssh</header>
-					<div>
-						<p><b>$ ssh-keygen</b> <i># generate ssh key</i></p>
-						<p><b>press [enter] for all prompts</b></p>
-						<p><b>$ ssh-copy-id user@hostname</b> <i># add ssh key to host</i></p>
-						<p><b>enter password for host when prompted</b></p>
-						<p><b>$ ssh user@hostname</b> <i># ssh into host without a password</i></p>
-					</div>
-				</div>
-			</main>
+    <div>
+			<p class="terminal-prompt">user@browser ~: </p>
+		</div>
   </div>
 </body>
+
 </html>
