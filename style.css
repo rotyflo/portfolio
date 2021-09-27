@@ -1,6 +1,3 @@
-/* start */
-/* css for terminal */
-
 #terminal-app {
 	background-color: #222225;
 	color: #e8e9ed;
@@ -14,9 +11,6 @@
 	padding-left: 0px;
 }
 
-/* start */
-/* css for posts */
-
 #post-title {
 	text-align: center;
 	font-weight: bold;
@@ -28,7 +22,15 @@ dt {
 }
 
 /* insert line break before element */
-dt::before, #post-title::before {
+dt::before,
+#post-title::before {
 	content: "\A";
+	white-space: pre;
+}
+
+/* spacing between sections on homepage */
+#posts::before,
+#projects::before {
+	content: "\A\A";
 	white-space: pre;
 }
