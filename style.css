@@ -10,3 +10,13 @@
 	border: none;
 	padding-left: 0px;
 }
+
+#post-title {
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+dt {
+	font-weight: bold;
+}
