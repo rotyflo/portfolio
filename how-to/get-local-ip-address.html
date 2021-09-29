@@ -21,24 +21,16 @@
 <body class="terminal">
 	<div class="container">
 		<main>
-			<p id="post-title">passwordless ssh</p>
+			<p id="how-to-title">get local ip address</p>
 			<dl>
-				<dt>generate ssh key</dt>
-				<dd>$ ssh-keygen</dd>
+				<dt>linux</dt>
+				<dd>hostname -I | awk '{print $1}'</dd>
 
-				<dt><u>prompt</u>: leave each field blank</dt>
-				<dd>Enter file in which to save the key (/Users/user/.ssh/id_rsa):</dd>
-				<dd>Enter passphrase (empty for no passphrase):</dd>
-				<dd>Enter same passphrase again:</dd>
+				<dt>macos</dt>
+				<dd>ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'</dd>
 
-				<dt>add ssh key to host</dt>
-				<dd>$ ssh-copy-id user@192.168.x.x</dd>
-
-				<dt><u>prompt</u>: enter password for host</dt>
-				<dd>user@192.168.x.x's password:</dd>
-
-				<dt><u>test</u>: ssh into host without password</dt>
-				<dd>$ ssh user@192.168.x.x</dd>
+				<dt>windows</dt>
+				<dd>for /f "tokens=14" %a in ('ipconfig ^| findstr IPv4') do echo %a</dd>
 			</dl>
 		</main>
 	</div>

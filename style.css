@@ -11,7 +11,7 @@
 	padding-left: 0px;
 }
 
-#post-title {
+#how-to-title {
 	text-align: center;
 	font-weight: bold;
 	text-decoration: underline;
@@ -23,13 +23,13 @@ dt {
 
 /* insert line break before element */
 dt::before,
-#post-title::before {
+#how-to-title::before {
 	content: "\A";
 	white-space: pre;
 }
 
 /* spacing between sections on homepage */
-#posts::before,
+#how-to::before,
 #projects::before {
 	content: "\A\A";
 	white-space: pre;
