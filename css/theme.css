@@ -1,5 +1,5 @@
 /* terminal.css classless theme */
-@import "https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css";
+@import url("https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css");
 
 /* dark theme */
 :root {

@@ -1,4 +1,4 @@
-@import "https://unpkg.com/pyloncss@latest/css/pylon.css";
+@import url("https://unpkg.com/pyloncss@latest/css/pylon.css");
 @import "./theme.css";
 
 #terminal-input {
