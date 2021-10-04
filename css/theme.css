@@ -1,0 +1,8 @@
+/* terminal.css classless theme */
+@import "https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css";
+
+/* dark theme */
+:root {
+	--background-color: #222225;
+	--font-color: #e8e9ed;
+}

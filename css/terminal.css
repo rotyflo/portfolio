@@ -1,0 +1,10 @@
+@import "https://unpkg.com/pyloncss@latest/css/pylon.css";
+@import "./theme.css";
+
+#terminal-input {
+	width: auto;
+	background: transparent;
+	color: #e8e9ed;
+	border: none;
+	padding-left: 0px;
+}

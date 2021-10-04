@@ -1,0 +1,25 @@
+@import "./theme.css";
+
+#how-to-title {
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+dt {
+	font-weight: bold;
+}
+
+/* insert line break before element */
+dt::before,
+#how-to-title::before {
+	content: "\A";
+	white-space: pre;
+}
+
+/* spacing between sections on homepage */
+#how-to::before,
+#projects::before {
+	content: "\A\A";
+	white-space: pre;
+}
