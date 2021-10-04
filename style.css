@@ -1,3 +1,8 @@
+:root {
+	--background-color: #222225;
+	--font-color: #e8e9ed;
+}
+
 #terminal-app {
 	background-color: #222225;
 	color: #e8e9ed;
