@@ -1,6 +1,0 @@
-/* to include this style: */
-/* @import "https://rotyflo.github.io/css/theme.css"; */
-/* because raw github files are sent with mime type, text/plain */
-
-/* terminal.css classless theme */
-@import url("https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css");
