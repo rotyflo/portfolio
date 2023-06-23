@@ -3,7 +3,7 @@
 /* because raw github files are sent with mime type, text/plain */
 
 /* Terminal Theme */
-@import url("https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css");
+@import "./terminal.min.css";
 
 /* Dark Theme */
 @media (prefers-color-scheme: dark) {
